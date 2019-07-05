@@ -66,7 +66,6 @@ $(document).ready(function () {
                for (i = 0; i < gbpArray.length; i++) {
                    for (j = 0; j < gbpArray[i].length; j++) {
                        $(gbpArray[i][0]).attr("class", gbpArray[i][1]);
-                       console.log(gbpArray[i][1]);
                    }//Inner Loop
                }//Outter Loop  
            };//end of conditional 
@@ -83,7 +82,6 @@ $(document).ready(function () {
                for (i = 0; i < sipArray.length; i++) {
                    for (j = 0; j < sipArray[i].length; j++) {
                        $(sipArray[i][0]).attr("class", sipArray[i][1]);
-                       console.log(sipArray[i][1]);
                    }//Inner Loop
                }//Outter Loop  
            };//end of conditional 
@@ -100,7 +98,6 @@ $(document).ready(function () {
                for (i = 0; i < fibArray.length; i++) {
                    for (j = 0; j < fibArray[i].length; j++) {
                        $(fibArray[i][0]).attr("class", fibArray[i][1]);
-                       console.log(fibArray[i][1]);
                    }//Inner Loop
                }//Outter Loop  
            };//end of conditional 
@@ -117,7 +114,6 @@ $(document).ready(function () {
                for (i = 0; i < mvpArray.length; i++) {
                    for (j = 0; j < mvpArray[i].length; j++) {
                        $(mvpArray[i][0]).attr("class", mvpArray[i][1]);
-                       console.log(mvpArray[i][1]);
                    }//Inner Loop
                }//Outter Loop  
            };//end of conditional 
