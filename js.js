@@ -50,7 +50,8 @@ $(document).ready(function () {
                "#med",
                "#explore",
            ]//end of resetArray
-   
+
+           //Removes selected and grayedOut classes from all ids in the resetArray
            for (k = 0; k < resetArray.length; k++) {
                $(resetArray[k]).removeClass("selected grayedOut")
            }
